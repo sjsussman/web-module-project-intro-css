@@ -52,11 +52,16 @@ html{
     font-size: 62.5%;
 }
 
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+
 .topnav a{
     display: inline-block;
-    margin: 10px 20px;
+    margin: 10px 30px;
     padding: 20px;
     border-radius: 20px;
+    text-decoration: none;
 }
 
 .bottomnav a{
@@ -64,30 +69,84 @@ html{
     margin: 10px 20px;
     padding: 20px;
     border-radius: 20px;
+    text-decoration: none;
 }
 
 .plan { 
-    border: 1px solid black;
     background-color: #FF764E;
     color: white;
     padding: 30px auto;
 }
 
 .learn {
-    border: 1px solid black;
     background-color: #5ED3EB;
     color: white;
 }
 
 .get {
-    border: 1px solid black;
     background-color: #FFCD69;
     color: white;
+}
+
+
+.yosemite h1{
+    font-size: 3rem;
+    font-family: 'Chelsea Market', cursive;
+    padding: 30px;
+}
+
+.words{
+    display: inline-block;
+    margin: 10px 20px;
+    text-align: center;
+}
+
+#headerphoto {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
 }
 
 .body1 {
     background-color: #DDB9A3;
     display: inline-block;
-    margin: 10px 10px;
+    margin: 30px 40px;
     padding: 5px;
+    color: white;
+    text-align: center;
+    position: relative;
+  
+}
+
+.fire{
+    margin: 25px 150px;
+    text-align: center;
+}
+
+#firepic{
+    height: 100px;
+    width: 100px;
+}
+
+.rv{
+    margin: 25px 150px;
+    text-align: center;
+}
+
+#rvpic{
+    height: 100px;
+    width: 100px;
+}
+
+#footerphoto{
+    height: 150px;
+    width: 100%;
+}
+
+#rvbold{
+    font-weight: bold;
+}
+
+#firebold {
+    font-weight: bold;
 }
