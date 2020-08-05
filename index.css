@@ -48,17 +48,36 @@ table {
 }
 /* Eric Meyeer CSS reset implemented above. */
 
+
 html{
     font-size: 62.5%;
 }
 
+img {
+    height: 50%
+    width: 50%;
+}
+
 body{
     font-family: 'Roboto Mono', monospace;
+    margin: 0 auto;
+}
+
+.topnav {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 25%;
+}
+
+.bottomnav{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 25%;
 }
 
 .topnav a{
     display: inline-block;
-    margin: 10px 30px;
+    margin: 10px auto;
     padding: 20px;
     border-radius: 20px;
     text-decoration: none;
@@ -88,6 +107,10 @@ body{
     color: white;
 }
 
+.yosemite {
+    margin: 0 auto;
+    width: 80%;
+}
 
 .yosemite h1{
     font-size: 3rem;
@@ -102,19 +125,20 @@ body{
 }
 
 #headerphoto {
-    height: 100px;
-    width: 100px;
+    width: 20%;
     border-radius: 100px;
 }
 
 .body1 {
     background-color: #DDB9A3;
     display: inline-block;
-    margin: 30px 40px;
+    margin: 30px auto;
     padding: 5px;
+    width: 80%;
     color: white;
     text-align: center;
-    position: relative;
+    position:: relative;
+    margin-left: 10%;
   
 }
 
@@ -124,8 +148,8 @@ body{
 }
 
 #firepic{
-    height: 100px;
-    width: 100px;
+    height: 15%;
+    width: 15%;
 }
 
 .rv{
@@ -134,12 +158,12 @@ body{
 }
 
 #rvpic{
-    height: 100px;
-    width: 100px;
+    height: 15%;
+    width: 15%;
 }
 
 #footerphoto{
-    height: 150px;
+    height: 250px;
     width: 100%;
 }
 
