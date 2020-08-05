@@ -47,3 +47,47 @@ table {
 	border-spacing: 0;
 }
 /* Eric Meyeer CSS reset implemented above. */
+
+html{
+    font-size: 62.5%;
+}
+
+.topnav a{
+    display: inline-block;
+    margin: 10px 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.bottomnav a{
+    display: inline-block;
+    margin: 10px 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.plan { 
+    border: 1px solid black;
+    background-color: #FF764E;
+    color: white;
+    padding: 30px auto;
+}
+
+.learn {
+    border: 1px solid black;
+    background-color: #5ED3EB;
+    color: white;
+}
+
+.get {
+    border: 1px solid black;
+    background-color: #FFCD69;
+    color: white;
+}
+
+.body1 {
+    background-color: #DDB9A3;
+    display: inline-block;
+    margin: 10px 10px;
+    padding: 5px;
+}
