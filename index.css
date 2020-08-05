@@ -61,6 +61,7 @@ img {
 body{
     font-family: 'Roboto Mono', monospace;
     margin: 0 auto;
+    overflow-x: hidden;
 }
 
 .topnav {
@@ -69,19 +70,21 @@ body{
     padding: 0 25%;
 }
 
+.topnav a{
+    display: inline-block;
+    margin: 1% 2%;
+    padding: 1.5%;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
 .bottomnav{
     width: 100%;
     margin: 0 auto;
     padding: 0 25%;
 }
 
-.topnav a{
-    display: inline-block;
-    margin: 10px 25px;
-    padding: 20px;
-    border-radius: 20px;
-    text-decoration: none;
-}
+
 
 .topnav a:hover {
     animation-name: bounce;
@@ -101,8 +104,8 @@ body{
 
 .bottomnav a{
     display: inline-block;
-    margin: 10px 25px;
-    padding: 20px;
+    margin: 1% 2%;
+    padding: 1.5%;
     border-radius: 20px;
     text-decoration: none;
 }
@@ -115,7 +118,6 @@ body{
 .plan { 
     background-color: #FF764E;
     color: white;
-    padding: 30px auto;
 }
 
 .learn {
@@ -131,12 +133,14 @@ body{
 .yosemite {
     margin: 0 auto;
     width: 80%;
+    display: inline-block;
 }
 
 .yosemite h1{
     font-size: 3rem;
     font-family: 'Chelsea Market', cursive;
     padding: 30px;
+    display: inline-block;
 }
 
 .words{
@@ -147,7 +151,10 @@ body{
 
 #headerphoto {
     width: 20%;
-    border-radius: 100px;
+    border-radius: 100%;
+    display: inline-block;
+    margin-left: 20%;
+    margin-top: 5%;
 }
 
 .body1 {
@@ -184,19 +191,17 @@ body{
 }
 
 #footerphoto{
-    height: 250px;
+    height: 200px;
     width: 100%;
 }
 
 #rvbold{
-    font-weight: bold;
+    font-weight: 700;
 }
 
 #firebold {
-    font-weight: bold;
+    font-weight: 700;
 }
-
-
 
 footer{
     background-color: #F9E7DC;
@@ -210,7 +215,3 @@ text-align: center;
 font-weight: bold;
 font-size: 5rem;
 }
-
-/* set top/bottom nav a margin to 10 px 25 px from 10px auto */
-/* why cant I set footer img to height % */
-/*bolding barely visible*/
