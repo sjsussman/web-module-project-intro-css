@@ -1,0 +1,217 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Eric Meyeer CSS reset implemented above. */
+
+
+html{
+    font-size: 62.5%;
+}
+
+img {
+    height: 50%;
+    width: 50%;
+}
+
+body{
+    font-family: 'Roboto Mono', monospace;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+.topnav {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 25%;
+}
+
+.topnav a{
+    display: inline-block;
+    margin: 1% 2%;
+    padding: 1.5%;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.bottomnav{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 25%;
+}
+
+
+
+.topnav a:hover {
+    animation-name: bounce;
+    animation-duration: 1s;
+}
+
+.bottomnav a:hover {
+    animation-name: bounce;
+    animation-duration: 1s;
+}
+
+@keyframes bounce{
+    0%  {transform: translateX(0);} 
+    50% {transform: translateX(-15px);}
+    100% {transform: translateX(0px);} 
+}
+
+.bottomnav a{
+    display: inline-block;
+    margin: 1% 2%;
+    padding: 1.5%;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+
+.home {
+    background-color: #FF764E;
+    color: white;
+}
+.plan { 
+    background-color: #FF764E;
+    color: white;
+}
+
+.learn {
+    background-color: #5ED3EB;
+    color: white;
+}
+
+.get {
+    background-color: #FFCD69;
+    color: white;
+}
+
+.yosemite {
+    margin: 0 auto;
+    width: 80%;
+    display: inline-block;
+}
+
+.yosemite h1{
+    font-size: 3rem;
+    font-family: 'Chelsea Market', cursive;
+    padding: 30px;
+    display: inline-block;
+}
+
+.words{
+    display: inline-block;
+    margin: 10px 20px;
+    text-align: center;
+}
+
+#headerphoto {
+    width: 20%;
+    border-radius: 100%;
+    display: inline-block;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+.body1 {
+    background-color: #DDB9A3;
+    display: inline-block;
+    margin: 30px auto;
+    padding: 5px;
+    width: 80%;
+    color: white;
+    text-align: center;
+    position: relative;
+    margin-left: 10%;
+  
+}
+
+.fire{
+    margin: 25px 150px;
+    text-align: center;
+}
+
+#firepic{
+    height: 15%;
+    width: 15%;
+}
+
+.rv{
+    margin: 25px 150px;
+    text-align: center;
+}
+
+#rvpic{
+    height: 15%;
+    width: 15%;
+}
+
+#footerphoto{
+    height: 200px;
+    width: 100%;
+}
+
+#rvbold{
+    font-weight: 700;
+}
+
+#firebold {
+    font-weight: 700;
+}
+
+footer{
+    background-color: #F9E7DC;
+}
+
+.mainbody {
+margin: 10% auto;
+padding: 5%;
+border: 5px dashed black;
+text-align: center;
+font-weight: bold;
+font-size: 5rem;
+}
